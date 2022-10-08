@@ -1,0 +1,411 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0;
+    overflow-x: hidden;
+    /* background-color: red; */
+}
+
+.container{
+    background-image: url("/navpic.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    position: relative;
+    /* top: -15px; */
+}
+
+.head{
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    font-family: calibri;
+    width: 84%;
+    padding-top: 50px;
+}
+
+.container p {
+    margin: auto;
+    color:  white;
+    font-family: calibri;
+    font-size: 70px;
+    border: 2px solid white;
+    position: relative;
+    right: 750px;
+    width: 450px;
+    top: 90px;
+    line-height: 70px;
+    height: fit-content;
+    padding: 10px;
+    font-weight: 90;
+}
+
+.container ul{
+    list-style: none;
+    padding: 0;
+    float: right;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: -60px;
+    font-size: 20px;
+    position: relative;
+}
+
+.container ul li{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+.container ul li a{
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    color: white;
+    font-family: calibri;
+    font-size: 17px;
+}
+
+/* .container ul li a:hover{ */
+    /* background-color: red */
+/* } */
+
+.hover-underline-animation{
+    position: relative;
+    text-decoration: none;
+}
+
+.hover-underline-animation::after {
+    content:'';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.man{
+    background-image: url("/man.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+
+.ourcreation{
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+    top: -40px;
+}
+
+.index{
+    background-color: white;
+    position: relative;
+    top: -480px;
+    left: 510px;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.index h1{
+    position: relative;
+    left: 200px;
+    font-family: calibri;
+    font-size: 55px;
+    font-weight: 20;
+    padding: -10px;
+    bottom: -30px;
+    left: 40px;
+} 
+
+.index p{
+    position: relative;
+    left: 200px;
+    font-size: 11px;
+    opacity: 0.9;
+    bottom: -10px;
+    left: 50px;
+}
+
+.seeall{
+    position: relative;
+    bottom: 400px;
+    left: 900px;
+    border: 1px solid black;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    font-family: calibri;
+    border-radius: 3px;
+}
+.seeall:hover{
+    background-color: black;
+    color: white;
+}
+.grid-box{
+    display: grid;
+    position: absolute;
+    /* justify-content: center; */
+    width: 199vh;
+    top: 1350px;
+    left: 150px;
+    gap: 2px;
+    /* margin-top: -1020px; */
+    /* padding-top: -60px; */
+    grid-template-columns: repeat(4, 16%);
+    grid-template-rows: repeat(4, 39.5%);
+
+}
+
+.moon{
+    background-image: url("/moon.jpg");
+    /* width: 100vh; */
+    padding: 10px;
+    color: red;
+    font-family: calibri;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.grid-box:hover {
+    /* background-color: red; */
+    opacity: 1;
+    z-index: -1;
+    /* width: 100px; */
+    background-size: contain;
+
+
+}
+
+.night{
+    background-image: url("/night.jpg");
+    height: 57vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.soccer{
+    background-image: url("/soccer.jpg");
+    height: 67vh;
+    /* width: 100vh; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
+.The-grid{
+    background-image: url("/grid.jpg");
+    height: 57vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* max-height: 10px; */
+}
+.fromup{
+    background-image: url("/from\ up.jpg");
+    height: 50vh;
+    color: white;
+    padding: 100px 100px 100px 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.pocket{
+    background-image: url("/pocket.jpg");
+    height: 50vh;
+    color: white;
+    padding: 100px 100px 100px 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.curiosity{
+    background-image: url("/curios.jpg");
+    height: 50vh;
+    color: white;
+    padding: 100px 100px 100px 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.make{
+    background-image: url("/make\ it\ fish\ eye.jpg");
+    height: 50vh;
+    color: white;
+    padding: 100px 100px 100px 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer{
+    margin: 0;
+}
+.foot{
+    position: relative;
+    bottom: -600px;
+    color: white;
+    background-color: black;
+}
+/* 
+background-image: url("/navpic.jpg");
+background-repeat: no-repeat;
+width: 100%;
+height: 90vh;
+background-size: cover;
+position: relative;
+/* top: -15px; */
+/* } */ 
+
+.head1{
+    font-size: 25px;
+    color: white;
+    margin: auto;
+    font-family: calibri;
+    width: 84%;
+    position: relative;
+    bottom: 70px;
+    left: -80px;
+    padding-top: 100px;
+}
+
+.foot p {
+    margin: auto;
+    color:  white;
+    font-family: calibri;
+    font-size: 70px;
+    border: 2px solid white;
+    position: relative;
+    right: 600px;
+    width: 450px;
+    top: 50px;
+    line-height: 70px;
+    height: fit-content;
+    padding: 40px;
+    font-weight: 90;
+}
+
+.foot ul{
+list-style: none;
+padding: 0;
+float: left;
+margin: 0;
+margin-right: 10px;
+margin-top: -60px;
+font-size: 20px;
+position: relative;
+}
+
+.foot ul li{
+display: inline-block;
+padding: 10px;
+position: relative;
+}
+.foot ul li a{
+text-decoration: none;
+padding: 5px;
+display: block;
+color: white;
+font-family: calibri;
+font-size: 17px;
+}
+/* .foot ul li a:hover{ */
+    /* background-color: green; */
+/* } */
+
+
+.hoverr{
+    position: relative;
+    text-decoration: none;
+}
+
+.hoverr::after {
+    content:'';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hoverr:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.copywrite{
+    color: whitesmoke;
+    position: relative;
+    top: 570px;
+    font-size: 13px;
+    left: 960px;
+    opacity: 0.7;
+}
+.icon{
+    color: white;
+    background-color: black;
+    left: 1000px;
+    position: relative;
+    top: 530px;
+    width: 20px;
+    font-size: 15px;
+}
+
+
+.twitter{
+    color: white;
+    background-color: black;
+    left: 1050px;
+    position: relative;
+    top: 515px;
+    width: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.pin{
+    color: white;
+    background-color: black;
+    left: 1100px;
+    position: relative;
+    top: 495px;
+    width: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ins{
+    color: white;
+    background-color: black;
+    left: 1150px;
+    position: relative;
+    top: 480px;
+    width: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* @media screen (max-width: */
+/* 800px) { */
+
+/* } */
