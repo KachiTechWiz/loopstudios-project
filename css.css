@@ -4,10 +4,11 @@ body{
     padding: 0;
     overflow-x: hidden;
     /* background-color: red; */
+    
 }
 
 .container{
-    background-image: url("/navpic.jpg");
+    background-image: url(/image-hero.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 90vh;
@@ -93,29 +94,29 @@ body{
     transform-origin: bottom left;
 }
 .man{
-    background-image: url("/man.jpg");
-    height: 100vh;
+    background-image: url(/image-interactive.jpg);
+    height: 50vh;
     background-repeat: no-repeat;
     position: relative;
+    background-size: contain;
     top: 90px;
-    left: 90px;
+    left: 149px;
 }
 
 .ourcreation{
     font-size: 25px;
     position: relative;
-    left: 100px;
-    top: -40px;
+    left: 150px;
+    top: 195px;
 }
 
 .index{
     background-color: white;
     position: relative;
-    top: -480px;
+    top: -180px;
     left: 510px;
     width: 500px;
     height: 300px;
-    
 }
 
 .index h1{
@@ -141,130 +142,106 @@ body{
 .seeall{
     position: relative;
     bottom: 400px;
-    left: 900px;
+    left: 1110px;
     border: 1px solid black;
     text-align: center;
     width: 90px;
+    top: -170px;
     height: 20px;
     font-family: calibri;
     border-radius: 3px;
 }
+
 .seeall:hover{
     background-color: black;
     color: white;
 }
 .grid-box{
     display: grid;
-    position: absolute;
-    /* justify-content: center; */
-    width: 199vh;
-    top: 1350px;
-    left: 150px;
-    gap: 2px;
-    /* margin-top: -1020px; */
-    /* padding-top: -60px; */
-    grid-template-columns: repeat(4, 16%);
-    grid-template-rows: repeat(4, 39.5%);
-
-}
-
-.moon{
-    background-image: url("/moon.jpg");
-    /* width: 100vh; */
-    padding: 10px;
-    color: red;
-    font-family: calibri;
-    background-size: contain;
-    background-repeat: no-repeat;
+    justify-content:center;
+    gap: 20px;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(2, 400px);
     position: relative;
+    bottom: 20px;
+    position: relative;
+    bottom: 120px;
 }
 
-.grid-box:hover {
-    /* background-color: red; */
-    opacity: 1;
-    z-index: -1;
-    /* width: 100px; */
-    background-size: contain;
-
-
+.grid-box div:hover{
+    background-blend-mode: hue;
+    background-color: rgb(166, 166, 175);
+    color: black;
 }
 
-.night{
-    background-image: url("/night.jpg");
-    height: 57vh;
+.grid-box div {
+    /* border: 2px solid; */
     color: white;
-    background-repeat: no-repeat;
-    background-size: contain;
+    font-size: 16px;
+    font-weight: 500;
+    /* position: relative; */
+    /* top: 100px; */
+    /* text-align: end; */
 }
-.soccer{
-    background-image: url("/soccer.jpg");
-    height: 67vh;
-    /* width: 100vh; */
+.grid-box div:nth-child(1) {
+    background-image: url("/image-deep-earth.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    color: white;
-}
-
-.The-grid{
-    background-image: url("/grid.jpg");
-    height: 57vh;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* max-height: 10px; */
-}
-.fromup{
-    background-image: url("/from\ up.jpg");
-    height: 50vh;
-    color: white;
-    padding: 100px 100px 100px 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.pocket{
-    background-image: url("/pocket.jpg");
-    height: 50vh;
-    color: white;
-    padding: 100px 100px 100px 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
-.curiosity{
-    background-image: url("/curios.jpg");
-    height: 50vh;
-    color: white;
-    padding: 100px 100px 100px 100px;
+.grid-box div:nth-child(2) {
+    background-image: url("/image-night-arcade.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
-.make{
-    background-image: url("/make\ it\ fish\ eye.jpg");
-    height: 50vh;
-    color: white;
-    padding: 100px 100px 100px 100px;
+.grid-box div:nth-child(3) {
+    background-image: url("/image-soccer-team.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
+.grid-box div:nth-child(4) {
+    background-image: url("/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-box div:nth-child(5) {
+    background-image: url("/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-box div:nth-child(6) {
+    background-image: url("/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-box div:nth-child(7) {
+    background-image: url("/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-box div:nth-child(8) {
+    background-image: url("/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-box p {
+    margin-top: 350px;
+    margin-left: 50px;
+}
+
+
+
 .footer{
     margin: 0;
 }
 .foot{
     position: relative;
-    bottom: -600px;
+    bottom: 10px;
     color: white;
+    height: 150px;
     background-color: black;
 }
-/* 
-background-image: url("/navpic.jpg");
-background-repeat: no-repeat;
-width: 100%;
-height: 90vh;
-background-size: cover;
-position: relative;
-/* top: -15px; */
-/* } */ 
 
 .head1{
     font-size: 25px;
@@ -274,7 +251,7 @@ position: relative;
     width: 84%;
     position: relative;
     bottom: 70px;
-    left: -80px;
+    left: -30px;
     padding-top: 100px;
 }
 
@@ -310,6 +287,7 @@ display: inline-block;
 padding: 10px;
 position: relative;
 }
+
 .foot ul li a{
 text-decoration: none;
 padding: 5px;
@@ -317,6 +295,8 @@ display: block;
 color: white;
 font-family: calibri;
 font-size: 17px;
+left: 60px;
+position: relative;
 }
 /* .foot ul li a:hover{ */
     /* background-color: green; */
@@ -348,7 +328,8 @@ font-size: 17px;
 .copywrite{
     color: whitesmoke;
     position: relative;
-    top: 570px;
+    /* top: 20px; */
+    bottom: 30px;
     font-size: 13px;
     left: 960px;
     opacity: 0.7;
@@ -358,9 +339,10 @@ font-size: 17px;
     background-color: black;
     left: 1000px;
     position: relative;
-    top: 530px;
+    bottom: 80px;
     width: 20px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 
@@ -369,7 +351,7 @@ font-size: 17px;
     background-color: black;
     left: 1050px;
     position: relative;
-    top: 515px;
+    bottom: 95px;
     width: 20px;
     font-size: 15px;
     cursor: pointer;
@@ -381,7 +363,7 @@ font-size: 17px;
     background-color: black;
     left: 1100px;
     position: relative;
-    top: 495px;
+    bottom: 115px;
     width: 20px;
     font-size: 15px;
     cursor: pointer;
@@ -392,20 +374,321 @@ font-size: 17px;
     background-color: black;
     left: 1150px;
     position: relative;
-    top: 480px;
+    bottom: 130px;
     width: 20px;
     font-size: 15px;
     cursor: pointer;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+
+
+ @media only screen and (max-width:
+ 1000px) {
+    body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .container ul li a{
+        display: none;
+    }
+
+    .container p{
+        margin: auto;
+        color:  white;
+        font-family: calibri;
+        font-size: 30px;
+        border: 2px solid white;
+        position: relative;
+        right: 60px;
+        width: 220px;
+        /* height: 100px; */
+        top: 90px;
+        line-height: 70px;
+        height: fit-content;
+        padding: 8px;
+        font-weight: 50;
+    }
+
+
+
+
+
+    .head{
+        font-size: 30px;
+        color: white;
+        margin: auto;
+        font-family: calibri;
+        width: 84%;
+        position: relative;
+        top: -10px;
+        left: -10px;
+    }
+    
+    .container{
+        background-image: url(/image-hero.jpg);
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 450px;
+        background-size: cover;
+        position: relative;
+    }
+
+    .man{
+        background-image: url(/image-interactive.jpg);
+        height: 500px;
+        width: 300px;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: contain;
+        top: 25px;
+        left: 20px;
+    }
+
+    .index{    
+        background-color: white;
+        position: relative;
+        top: -250px;
+        left: 15px;
+        width: 340px;
+        height: 200px;
+    }
+
+        
+    .index h1{
+        position: relative;
+        left: 200px;
+        font-family: calibri;
+        font-size: 25px;
+        font-weight: 20;
+        padding: -10px;
+        bottom: -30px;
+        left: 80px;
+    } 
+
+    .index p{
+        position: relative;
+        left: 200px;
+        font-size: 10px;
+        opacity: 0.9;
+        bottom: -10px;
+        left: 40px;
+        top: 20px;
+        text-align: justify;
+    }
+
+    
+    .grid-box{
+        display: grid;
+        justify-content:center;
+        gap: 20px;
+        grid-template-columns: repeat(1, 220px);
+        /* grid-template-rows: repeat(2, 400px); */
+        position: relative;
+        bottom: 20px;
+        position: relative;
+        bottom: -150px;
+    }
+
+    .ourcreation{
+        font-size: 20px;
+        position: relative;
+        left: 100px;
+        top: 15px;
+    }
+
+    
+    .grid-box div:nth-child(1) {
+        background-image: url("/image-deep-earth.jpg");
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        position: relative;
+        top: -350px;
+        right: 30px;
+        width: 300px;
+        background-size: cover;
+    }
+
+    .grid-box div:nth-child(2) {
+        background-image: url("/image-night-arcade.jpg");
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        position: relative;
+        top: -600px;
+        right: 30px;
+        width: 300px;
+        background-size: cover;
+    }
+
+    
+    .grid-box div:nth-child(3) {
+        background-image: url("/image-soccer-team.jpg");
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        position: relative;
+        top: -850px;
+        left: -26px;
+        width: 300px;
+        background-size: cover;
+    }
+
+        
+    .grid-box div:nth-child(4) {
+        background-image: url("/image-grid.jpg");
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        position: relative;
+        top: -850px;
+        left: -26px;
+        width: 300px;
+        background-size: cover;
+    }
+
+        
+    .grid-box div:nth-child(5) {
+        background-image: url("/image-from-above.jpg");
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        position: relative;
+        top: -850px;
+        left: -26px;
+        width: 300px;
+        background-size: cover;
+    }
+
+    
+    .grid-box div:nth-child(6) {
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        position: relative;
+        top: -850px;
+        left: -26px;
+        width: 300px;
+        background-size: cover;
+    }
+
+    
+    .grid-box div:nth-child(7) {
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        position: relative;
+        top: -850px;
+        left: -26px;
+        width: 300px;
+        background-size: cover;
+    }
+
+       
+    .grid-box div:nth-child(8) {
+        background-repeat: no-repeat;
+        height: 150px;
+        position: relative;
+        position: relative;
+        top: -850px;
+        left: -26px;
+        width: 300px;
+        background-size: cover;
+    }
+    .seeall{
+        position: relative;
+        bottom: 400px;
+        left: 140px;
+        border: 1px solid black;
+        text-align: center;
+        width: 90px;
+        top: 1200px;
+        height: 20px;
+        font-family: calibri;
+        border-radius: 3px;
+    }
+
+    .seeall:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .grid-box p{
+        margin-top: 90px;
+        margin-left: 50px;
+    }
+
+    
+    .foot{
+        height: 350px;
+        width: 340px;
+        bottom: 600px;
+    }
+
+    .foot ul li a{
+        padding: 1px 100px;
+    }
+
+    .head1{
+        position: relative;
+        left: 100px;
+    }
+
+    .icon{
+        color: white;
+        background-color: black;
+        left: 80px;
+        position: relative;
+        bottom: 4px;
+        width: 20px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .twitter{
+        color: white;
+        background-color: black;
+        left: 140px;
+        position: relative;
+        bottom: 20px;
+        width: 20px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .pin{
+        color: white;
+        background-color: black;
+        left: 200px;
+        position: relative;
+        bottom: 35px;
+        width: 20px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .ins{
+        color: white;
+        background-color: black;
+        left: 260px;
+        position: relative;
+        bottom: 50px;
+        width: 20px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .copywrite{
+        color: whitesmoke;
+        position: relative;
+        bottom: -40px;
+        font-size: 13px;
+        left: 70px;
+        opacity: 0.7;
+    }
+
 }
-
-
-
-
-
-
-
-
-/* @media screen (max-width: */
-/* 800px) { */
-
-/* } */
+ 
